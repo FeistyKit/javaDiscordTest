@@ -22,7 +22,7 @@ public abstract class FileReader {
         Scanner s = new Scanner(f);
         ArrayList<String> toReturn = new ArrayList<>();
         while (s.hasNextLine()) {
-            toReturn.add(s.nextLine() + "\n");
+            toReturn.add(s.nextLine());
         }
         return toReturn;
     }
